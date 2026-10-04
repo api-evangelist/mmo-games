@@ -33,13 +33,13 @@ x-category: "Games & Comics"
 x-tier: 3
 x-tier-reason: bulk-registered-from-public-apis
 tags:
-  - Games And Comics
   - Public APIs
+  - Gaming
+  - Video Games
 apis:
   - name: MMO Games
     description: "MMO Games Database, News and Giveaways"
     humanURL: https://www.mmobomb.com/api
-    baseURL: https://www.mmobomb.com/api
     tags:
       - Games And Comics
     properties:
@@ -57,3 +57,5 @@ common:
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+x-tags-removed:
+- Games And Comics
